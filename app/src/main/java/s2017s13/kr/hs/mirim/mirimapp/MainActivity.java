@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(myIntent);
     }
     public void onButton2Clicked(View v){
-        Intent myIntent = new Intent(Intent.ACTION_DIAL , Uri.parse("tel:010-1000-1000"));
+        Intent myIntent = new Intent(Intent.ACTION_DIAL , Uri.parse("tel:010-2000-1000"));
         startActivity(myIntent);
     }
 }
